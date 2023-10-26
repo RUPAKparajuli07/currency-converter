@@ -8,7 +8,7 @@ class App:
         self.from_currency = tk.StringVar(self.window)
         self.to_currency = tk.StringVar(self.window)
         self.amount = tk.StringVar(self.window)
-        self.converted_amount = tk.StringVar(self.window)
+        self.converted_amount = tk.StringVar(self.window) 
         self.url = url
 
         self.from_currency_label = tk.Label(self.window, text="From Currency")
