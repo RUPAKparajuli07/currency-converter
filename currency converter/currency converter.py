@@ -57,7 +57,7 @@ class App:
             return
 
         from_currency = self.from_currency.get()
-        to_currency = self.to_currency.get()
+        to_currency = self.to_currency.get() 
 
         data = requests.get(self.url).json()
         try:
