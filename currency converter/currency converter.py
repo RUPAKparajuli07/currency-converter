@@ -14,7 +14,7 @@ class App:
         self.from_currency_label.grid(column=0, row=0, padx=5, pady=5)
         self.from_currency_options = sorted(self.get_currency_options()) 
         self.from_currency_dropdown = tk.OptionMenu(self.window, self.from_currency, *self.from_currency_options)
-        self.from_currency_dropdown.grid(column=1, row=0, padx=5, pady=5)
+        self.from_currency_dropdown.grid(column=1, row=0, padx=5, pady=5) 
  
         self.to_currency_label = tk.Label(self.window, text="To Currency")
         self.to_currency_label.grid(column=0, row=1, padx=5, pady=5)
