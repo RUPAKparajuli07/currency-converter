@@ -3,7 +3,7 @@ import requests
   
 class App:  
     def __init__(self, url):    
-        self.window = tk.Tk() 
+        self.window = tk.Tk()  
         self.window.title("Currency Converter")     
         self.from_currency = tk.StringVar(self.window) 
         self.to_currency = tk.StringVar(self.window)    
