@@ -5,7 +5,7 @@ class App:
     def __init__(self, url):
         self.window = tk.Tk()
         self.window.title("Currency Converter")       
-        self.from_currency = tk.StringVar(self.window)   
+        self.from_currency = tk.StringVar(self.window)
         self.converted_amount = tk.StringVar(self.window) 
         self.url = url  
 
