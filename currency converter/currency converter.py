@@ -47,7 +47,7 @@ class App:
         data = requests.get(self.url).json()
         return [currency for currency in data["rates"]]
 
-    def convert(self):
+    def convert(self): 
         try:
             amount = float(self.amount.get())
         except ValueError:
